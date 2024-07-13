@@ -12,7 +12,7 @@ const Login = () => {
   return (
     <div class="flex h-screen justify-center">
       {/* left side  */}
-      <div className="md:w-[30%] md:min-w-fit w-full flex justify-center items-center m-14">
+      <div className="md:w-[35%] md:min-w-fit w-full flex justify-center items-center m-14">
         <div className=" flex-col w-full">
           {/* logo centering */}
           <div className="flex justify-center">
@@ -75,7 +75,7 @@ const Login = () => {
       </div>
 
       {/* right side container */}
-      <div className="w-[70%] bg-orange-100 p-5 hidden md:block ">
+      <div className="w-[65%] bg-orange-100 p-5 hidden md:block ">
         <div className="flex justify-center w-full h-full">
           <img className="" src={pic} alt="" />
         </div>
